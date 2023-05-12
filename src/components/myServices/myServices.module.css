@@ -1,0 +1,16 @@
+.servicesBlock {
+    height: 100vh;
+    border-bottom: 5px solid #8585e8;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+}
+
+.skill_container {
+    box-sizing: border-box;
+    width: 100%;
+    height: inherit;
+    border: 1px solid;
+}
