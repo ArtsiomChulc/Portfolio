@@ -7,7 +7,7 @@ import AboutMePhoto from "./aboutMePhoto/AboutMePhoto";
 const AboutMe = () => {
     return (
         <div className={s.aboutMeBlock}>
-            <div className={s_container.container}>
+            <div className={`${s_container.container} ${s.container}`}>
                 <AboutMeGreet/>
                 <AboutMePhoto/>
             </div>

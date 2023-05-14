@@ -6,7 +6,7 @@ const AboutMeGreet = () => {
         <div className={s.greetBlock}>
             <span>Привет всем!!!</span>
             <h1>Меня зовут Артем Чульц.</h1>
-            <p>Я front-end разработчик</p>
+            <span>Я front-end разработчик</span>
         </div>
     );
 };

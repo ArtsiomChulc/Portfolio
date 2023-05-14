@@ -1,15 +1,21 @@
 import React from 'react';
 import s from './skills.module.css';
-import s_container from '../../../common/styles/container.module.css'
+import square from '../../../common/styles/square.module.css'
 
-const Skills = () => {
+type SkillsPropsType = {
+    descText?: string
+    titleText?: string
+}
+
+const Skills = (props: SkillsPropsType) => {
     return (
         <div className={s.skillBlock}>
-            <p>sdvsvdsvdsvd</p>
-            <p>sdvsvdsvdsvd</p>
-            <p>sdvsvdsvdsvd</p>
-            <p>sdvsvdsvdsvd</p>
-            <p>sdvsvdsvdsvd</p>
+            <div className={`${s.square} ${square.square}`}></div>
+            <h3 className={s.title}>{props.titleText}</h3>
+            <span className={s.description}>
+                {props.descText}
+            </span>
+
         </div>
     );
 };

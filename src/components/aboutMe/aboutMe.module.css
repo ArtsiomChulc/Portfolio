@@ -1,5 +1,10 @@
 .aboutMeBlock {
     height: 100vh;
-    border-top: 5px solid #8585e8;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.container {
+    align-items: center;
+    flex-wrap: wrap;
+}

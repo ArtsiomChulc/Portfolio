@@ -1,4 +1,10 @@
 .greetBlock {
     width: 300px;
     background-color: rgba(0, 217, 255, 0.22);
+    padding: 35px 10px;
+    text-align: center;
+    box-shadow:  0 5px 10px hsla(0,100%,50%,.5),
+    -5px 5px 10px hsla(60,100%,50%,.7),
+    5px -5px 10px hsla(120,100%,50%,.5),
+    5px 0 10px hsla(240,100%,50%,.5);
 }

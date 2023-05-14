@@ -1,14 +1,15 @@
-.servicesBlock {
+.myWorksBlock {
     height: 80vh;
     box-sizing: border-box;
 }
 
 .title {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .container {
     border: 1px solid rgba(255, 255, 255, 0.05);
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
 }
