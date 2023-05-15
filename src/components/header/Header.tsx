@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './header.module.css';
-import NavLink from "../navLink/NavLink";
+import NavLink from "./navLink/NavLink";
 
 const Header = () => {
     return (

@@ -8,10 +8,11 @@
 }
 
 .iconsBlock {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: space-between;
-    gap: 65px;
+    gap: 5px;
     border: 1px solid rgba(255, 255, 255, 0.05);
     margin-bottom: 20px;
     padding: 15px;
