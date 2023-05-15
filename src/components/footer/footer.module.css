@@ -8,7 +8,7 @@
 }
 
 .iconsBlock {
-    width: 100%;
+    width: 60%;
     display: flex;
     /*flex-wrap: wrap;*/
     justify-content: space-between;
