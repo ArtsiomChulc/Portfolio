@@ -11,7 +11,7 @@ const Contacts = () => {
                     Введите имя: <input className={s.nameInput} type="text" name="FirstName" value="" placeholder={'Name'}/>
                     Введите фамилию: <input className={s.lastNameInput} type="text" name="LastName" value="" placeholder={'Last Name'}/>
                     <textarea placeholder={'Enter your text'}/>
-                    <button className={button.btn}>Отправить</button>
+                    <button className={`${button.btn} ${s.btn}`}>Отправить</button>
                 </form>
 
             </div>
