@@ -1,3 +1,7 @@
+.contactsBlock {
+    background: #252527;
+}
+
 .container {
     border: 1px solid rgba(255, 255, 255, 0.05);
     justify-content: center;

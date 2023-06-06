@@ -1,0 +1,5 @@
+.iconBlock {
+    display: inline-block;
+    background-size: cover!important;
+    cursor: pointer;
+}

@@ -1,10 +1,17 @@
+.footerBlock {
+    background-color: #1f1f20;
+}
+
 .container {
     flex-direction: column;
     border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .name {
-
+    padding-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .iconsBlock {
@@ -18,10 +25,23 @@
     padding: 15px;
 }
 
-.iconBlock {
-    display: inline-block;
-}
 
 .copyRight {
     margin-bottom: 20px;
+}
+
+.facebook {
+    background: url('../../common/icons/iconsForFooter/facebook.png') center center;
+}
+
+.linkedin {
+    background: url('../../common/icons/iconsForFooter/in.png') center center;
+}
+
+.twitter {
+    background: url('../../common/icons/iconsForFooter/twitter.png') center center;
+}
+
+.github {
+    background: url('../../common/icons/iconsForFooter/gitHub.png') center center;
 }

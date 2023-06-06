@@ -1,11 +1,14 @@
 .servicesBlock {
     min-height: 80vh;
     box-sizing: border-box;
+    background: #252527;
+    text-align: center;
 }
 
 .title {
     text-align: center;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .container {
@@ -15,25 +18,22 @@
     align-items: stretch;
 }
 .customStyleHtml {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
     background: url('../../common/icons/iconForMyWorksExample/html.png') center center;
-    background-size: cover;
 }
 
 .customStyleCss {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
     background: url('../../common/icons/iconForMyWorksExample/css.png') center center;
-    background-size: cover;
 }
 
 .customStyleJS {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
     background: url('../../common/icons/iconForMyWorksExample/JS.png') center center;
-    background-size: cover;
+}
+.customStyleRedux {
+    background: url('../../common/icons/iconForMyWorksExample/redux.png') center center;
+}
+.customStyleFigma {
+    background: url('../../common/icons/iconForMyWorksExample/figma.png') center center;
+}
+.customStyleReact {
+    background: url('../../common/icons/iconForMyWorksExample/react.png') center center;
 }

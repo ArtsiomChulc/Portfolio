@@ -17,7 +17,7 @@ const Skills = (props: SkillsPropsType) => {
     return (
         <div className={s.skillBlock} >
             <div className={`${s.square} ${square.square}`}>
-                <span className={props.customStyle}></span>
+                <span className={`${props.customStyle} ${s.customStyle}`}></span>
             </div>
             <h3 className={s.title}>{props.titleText}</h3>
             <span className={s.description}>

@@ -1,15 +1,18 @@
 .myWorksBlock {
     min-height: 80vh;
     box-sizing: border-box;
+    background-color: #1f1f20;
 }
 
 .title {
     text-align: center;
     margin-bottom: 50px;
+    padding-top: 20px;
 }
 
 .container {
     border: 1px solid rgba(255, 255, 255, 0.05);
     flex-wrap: wrap;
     gap: 10px;
+    background: #252527;
 }
