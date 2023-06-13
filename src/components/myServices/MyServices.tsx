@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './myServices.module.css';
+import s from './myServices.module.scss';
 import Skills from "./skills/Skills";
 import s_container from "../../common/styles/container.module.css";
 

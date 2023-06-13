@@ -1,19 +1,18 @@
 import React from 'react';
-import s from './aboutMeGreet.module.css';
+import s from './aboutMeGreet.module.scss';
 
 const AboutMeGreet = () => {
-
     return (
         <div className={s.greetBlock}>
             <span className={s.introSpan}>
-                    Привет всем!!!
+                    Привет Всем...
             </span>
             <h1 className={s.title}>
                 Меня зовут <br/>
                  <span> Артем Чульц.
                 </span>
             </h1>
-            <p id={'result'} className={s.subTitle}>Я Front-End разработчик</p>
+            <p className={`${s.subTitle} ${s.textTyping}`}>Я Front-End разработчик</p>
         </div>
     );
 };

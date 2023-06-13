@@ -1,0 +1,44 @@
+.servicesBlock {
+    min-height: 80vh;
+    box-sizing: border-box;
+    background: #252527;
+    text-align: center;
+
+    .title {
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .container {
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: stretch;
+
+        .customStyleHtml {
+            background: url('../../common/icons/iconForMyWorksExample/html.svg') center center;
+        }
+
+        .customStyleCss {
+            background: url('../../common/icons/iconForMyWorksExample/css.svg') center center;
+        }
+
+        .customStyleJS {
+            background: url('../../common/icons/iconForMyWorksExample/js.svg') center center;
+        }
+        .customStyleRedux {
+            background: url('../../common/icons/iconForMyWorksExample/redux.svg') center center;
+        }
+        .customStyleFigma {
+            background: url('../../common/icons/iconForMyWorksExample/figma.svg') center center;
+        }
+        .customStyleReact {
+            background: url('../../common/icons/iconForMyWorksExample/react.svg') center center;
+        }
+    }
+}
+
+
+
+

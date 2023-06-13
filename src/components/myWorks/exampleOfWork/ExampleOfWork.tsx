@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './exampleOfWork.module.css'
+import s from './exampleOfWork.module.scss'
 
 type ExamplePropsType = {
     photo: string

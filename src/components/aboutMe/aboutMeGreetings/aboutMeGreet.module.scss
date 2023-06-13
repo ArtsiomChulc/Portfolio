@@ -1,0 +1,74 @@
+@import "../../../common/mixins/mixin";
+
+
+.greetBlock {
+  color: #fff;
+  width: 50%;
+
+  @media screen and (max-width: 950px) {
+    width: 100%;
+    text-align: center;
+  }
+
+  .introSpan {
+    margin-bottom: 15px;
+    white-space: nowrap;
+    //font-size: 36px;
+    font-size: calc(24px + 18 * (100vw / 1440));
+    display: inline-block;
+    letter-spacing: 2px;
+    position: relative;
+    font-style: italic;
+    font-family: 'Marck Script', cursive;
+
+    &:after {
+      @include styleAfter(100%, 2px, #39524a, 40px, 50%);
+    }
+  }
+
+  .textTyping {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 3s steps(50, end) alternate infinite;
+
+    @keyframes type {
+      from {
+        width: 0;
+      }
+    }
+  }
+
+  .title {
+    //font-size: 50px;
+    padding: 10px 0 10px;
+    font-size: calc(34px + 16 * (100vw / 1440));
+    white-space: nowrap;
+
+    span {
+      display: inline-block;
+    }
+  }
+
+  .subTitle {
+    margin-top: 15px;
+    //font-size: 24px;
+    font-size: calc(20px + 16 * (100vw / 1440));
+    //width: 300px;
+    letter-spacing: 1.2px;
+    font-family: 'Marck Script', cursive;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

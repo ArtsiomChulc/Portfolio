@@ -7,6 +7,7 @@ import MyWorks from "./components/myWorks/MyWorks";
 import Freelance from "./components/frilance/Freelance";
 import Contacts from "./components/contacts/Contacts";
 import Footer from "./components/footer/Footer";
+import LogIn from "./common/login/LogIn";
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
             <MyServices/>
             <MyWorks/>
             <Freelance/>
-            <Contacts/>
+            <LogIn/>
             <Footer/>
         </div>
     );

@@ -5,11 +5,13 @@
     justify-content: space-around;
     padding-top: 200px;
     background-color: #1f1f20;
+
+    .container {
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin: 20px auto;
+    }
 }
 
-.container {
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin: 20px auto;
-}
+

@@ -1,0 +1,41 @@
+.navBlock {
+  /*max-width: 300px;*/
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 10px;
+
+  a {
+    //color: white;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    position: relative;
+    color: #f3ebef;
+    cursor: pointer;
+    //font-size: 20px;
+    font-size: calc(16px + 6 * (100vw / 1440));
+
+    &::after {
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 0;
+      height: 2px;
+      background-color: rgb(240, 255, 250);
+      content: "";
+      transition: width 0.2s;
+
+    }
+    &:hover {
+      color: #0df3f3;
+    }
+    &:hover::after {
+      width: 100%;
+    }
+
+  }
+}
+

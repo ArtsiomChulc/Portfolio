@@ -1,0 +1,12 @@
+
+
+@mixin styleAfter($width, $height, $bgc, $top, $left) {
+  content: '';
+  position: absolute;
+  width: $width;
+  height: $height;
+  background-color: $bgc;
+  top: $top;
+  left: $left;
+  transform: translate(-50%);
+}

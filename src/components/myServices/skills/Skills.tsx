@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './skills.module.css';
+import s from './skills.module.scss';
 import square from '../../../common/styles/square.module.css';
 
 

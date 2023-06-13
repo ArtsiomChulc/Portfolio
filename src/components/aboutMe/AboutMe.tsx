@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './aboutMe.module.css';
+import s from './aboutMe.module.scss';
 import s_container from '../../common/styles/container.module.css'
 import AboutMeGreet from "./aboutMeGreetings/AboutMeGreet";
 import AboutMePhoto from "./aboutMePhoto/AboutMePhoto";
