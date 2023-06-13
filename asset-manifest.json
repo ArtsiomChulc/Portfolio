@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7e4b8ed3.css",
-    "main.js": "/Portfolio/static/js/main.9e59c6ed.js",
+    "main.css": "/Portfolio/static/css/main.f8dac407.css",
+    "main.js": "/Portfolio/static/js/main.edfbe07c.js",
     "static/js/787.28cb0dcd.chunk.js": "/Portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/exampleImg.jpg": "/Portfolio/static/media/exampleImg.75aea8ac3ed1867e4568.jpg",
+    "static/media/react.svg": "/Portfolio/static/media/react.e27571eaed899c642345.svg",
+    "static/media/redux.svg": "/Portfolio/static/media/redux.a95675408ae17c456965.svg",
+    "static/media/css.svg": "/Portfolio/static/media/css.a2c8da82eff8920316ce.svg",
+    "static/media/js.svg": "/Portfolio/static/media/js.73cb4e361841d51af23c.svg",
     "index.html": "/Portfolio/index.html",
-    "main.7e4b8ed3.css.map": "/Portfolio/static/css/main.7e4b8ed3.css.map",
-    "main.9e59c6ed.js.map": "/Portfolio/static/js/main.9e59c6ed.js.map",
+    "static/media/html.svg": "/Portfolio/static/media/html.f605ccb8aa0ceb66ce5a.svg",
+    "static/media/figma.svg": "/Portfolio/static/media/figma.efac11bedf61f2d192d5.svg",
+    "main.f8dac407.css.map": "/Portfolio/static/css/main.f8dac407.css.map",
+    "main.edfbe07c.js.map": "/Portfolio/static/js/main.edfbe07c.js.map",
     "787.28cb0dcd.chunk.js.map": "/Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e4b8ed3.css",
-    "static/js/main.9e59c6ed.js"
+    "static/css/main.f8dac407.css",
+    "static/js/main.edfbe07c.js"
   ]
 }
