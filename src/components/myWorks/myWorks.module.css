@@ -1,7 +1,7 @@
 .myWorksBlock {
     min-height: 80vh;
     box-sizing: border-box;
-    background-color: #1f1f20;
+    /*background-color: #1f1f20;*/
 }
 
 .title {
@@ -14,5 +14,6 @@
     border: 1px solid rgba(255, 255, 255, 0.05);
     flex-wrap: wrap;
     gap: 10px;
-    background: #252527;
+    background: rgba(37, 37, 39, 0.81);
+    padding: 40px;
 }

@@ -1,0 +1,57 @@
+.footerBlock {
+  background-color: rgba(31, 31, 32, 0.94);
+}
+
+.container {
+  flex-direction: column;
+  /*border: 1px solid rgba(255, 255, 255, 0.05);*/
+}
+
+.name {
+  padding-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.iconsBlock {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+  border-radius: 10px;
+  border: 2px solid rgba(199, 191, 191, 0.85);
+  margin-bottom: 20px;
+  padding: 0 15px;
+  background-color: rgba(8, 8, 9, 0.7);
+
+  @media screen and (max-width: 600px) {
+    flex-wrap: nowrap;
+  }
+}
+
+
+.copyRight {
+  margin-bottom: 20px;
+}
+
+.facebook {
+  background: url('../../common/icons/iconsForFooter/facebook.svg') center center;
+}
+
+.linkedin {
+  background: url('../../common/icons/iconsForFooter/in.svg') center center;
+}
+
+.twitter {
+  background: url('../../common/icons/iconsForFooter/twitter.svg') center center;
+}
+
+.github {
+  background: url('../../common/icons/iconsForFooter/gitHub.svg') center center;
+}
+
+.instagram {
+  background: url('../../common/icons/iconsForFooter/instagram.svg') center center;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "./infoForFooter.module.css";
+import s from "./infoForFooter.module.scss";
 import square from "../../../common/styles/square.module.css";
 
 

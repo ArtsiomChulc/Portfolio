@@ -4,13 +4,15 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 200px;
-    background-color: #1f1f20;
+    //background-color: #1f1f20;
 
     .container {
         align-items: center;
         flex-wrap: wrap;
         gap: 40px;
         margin: 20px auto;
+        background-color: rgba(31, 31, 32, 0.92);
+        padding: 30px 15px;
     }
 }
 

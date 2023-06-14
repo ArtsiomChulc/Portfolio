@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './LogIn.module.scss';
-import button from "../styles/button.module.scss";
+import button from "../../common/styles/button.module.scss";
 
 const LogIn = () => {
     return (
@@ -14,7 +14,7 @@ const LogIn = () => {
                 <input className={s.input} type="text" placeholder="Last Name"/>
                 <label>Describe your wishes</label>
                 <input className={s.input} placeholder={'Enter your text'}/>
-                <button className={`${button.btn} ${s.button}`} type="submit">Отправить</button>
+                <button className={`${button.btn} ${s.button}`} type="submit"><span>Отправить</span></button>
             </div>
         </div>
     );

@@ -22,7 +22,7 @@
     font-family: 'Marck Script', cursive;
 
     &:after {
-      @include styleAfter(100%, 2px, #39524a, 40px, 50%);
+      @include styleAfter(100%, 2px, #39524a, 100%, 50%);
     }
   }
 
@@ -45,6 +45,10 @@
     font-size: calc(34px + 16 * (100vw / 1440));
     white-space: nowrap;
 
+    @media screen and (max-width: 450px) {
+      font-size: calc(32px + 16 * (100vw / 1440));
+    }
+
     span {
       display: inline-block;
     }
@@ -57,6 +61,11 @@
     //width: 300px;
     letter-spacing: 1.2px;
     font-family: 'Marck Script', cursive;
+
+    @media screen and (max-width: 450px) {
+      font-size: calc(18px + 6 * (100vw / 1440));
+    }
+
   }
 }
 

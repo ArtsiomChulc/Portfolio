@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './freelance.module.css';
+import s from './freelance.module.scss';
 import button from '../../common/styles/button.module.scss'
 import s_container from "../../common/styles/container.module.css";
 

@@ -12,7 +12,7 @@ const ExampleOfWork = (props: ExamplePropsType) => {
         <div className={s.exampleBlock}>
             <div className={s.wrapRelative}>
                 <img src={props.photo} alt="My work photo"/>
-                <button>Смотреть</button>
+                <button className={s.btn}>Смотреть</button>
             </div>
             <div className={s.wrapText}>
                 <p className={s.projectName}>{props.nameProject}</p>

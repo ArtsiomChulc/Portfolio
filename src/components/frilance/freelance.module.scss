@@ -1,5 +1,5 @@
 .freelanceBlock {
-    background: #252527;
+    /*background: #252527;*/
 }
 
 .container {
@@ -7,11 +7,14 @@
     flex-direction: column;
     justify-content: center;
     border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(37, 37, 39, 0.89);
 }
 
 .title {
     margin-bottom: 60px;
     text-align: center;
+    font-size: calc(24px + 14 * (100vw / 1440));
+    padding: 0 10px;
 }
 
 .container button {

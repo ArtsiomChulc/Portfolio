@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './footer.module.css';
+import s from './footer.module.scss';
 import s_container from '../../common/styles/container.module.css';
 import InfoForFooter from "./infoForFooter/InfoForFooter";
 
@@ -14,6 +14,7 @@ const Footer = () => {
                     <InfoForFooter customStyle={s.linkedin}/>
                     <InfoForFooter customStyle={s.twitter}/>
                     <InfoForFooter customStyle={s.github}/>
+                    <InfoForFooter customStyle={s.instagram}/>
                 </div>
                 <span className={s.copyRight}>
                     &copy; 2023 Все права защищены

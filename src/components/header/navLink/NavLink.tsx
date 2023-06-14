@@ -2,6 +2,7 @@ import React from 'react';
 import s from './navLink.module.scss';
 
 const NavLink = () => {
+
     return (
         <div className={s.navBlock}>
             <a href="src/components/header/navLink/NavLink">Главная</a>

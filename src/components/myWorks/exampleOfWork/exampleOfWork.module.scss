@@ -21,10 +21,11 @@
             }
         }
 
-        button {
+        .btn {
             position: absolute;
-            top: 0;
-            right: 0;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, -50%);
             cursor: pointer;
             transition: all .5s ease;
             color: #fff;
@@ -38,6 +39,7 @@
             padding: 10px;
             outline: none;
             border-radius: 4px;
+            max-width: 130px;
 
             &:hover {
                 color: #001F3F;
