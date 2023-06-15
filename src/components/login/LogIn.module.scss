@@ -21,19 +21,21 @@
     max-width: 370px;
   }
 
-  .brand_logo {
-    height: 100px;
-    width: 100px;
-    background: url("../../common/icons/iconForMyWorksExample/react.svg") center / cover no-repeat;
-    background-size: 90%;
-    margin: auto;
-    border-radius: 50%;
-    box-sizing: border-box;
-    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
-  }
+  //.brand_logo {
+  //  height: 100px;
+  //  width: 100px;
+  //  //background: url("../../common/icons/iconForMyWorksExample/react.svg") center / cover no-repeat;
+  //  background-size: 90%;
+  //  margin: auto;
+  //  border-radius: 50%;
+  //  box-sizing: border-box;
+  //  //box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+  //}
 
   .brand_title {
+    text-align: center;
     margin-top: 20px;
+    margin-bottom: 40px;
     font-weight: 900;
     font-size: 1.8rem;
     color: #1DA1F2;
@@ -83,6 +85,82 @@
   display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+
+// pulse
+
+.pulse {
+  position: relative; // Нужно будет в будущем, для позиционирования эффекта
+  text-align: center;
+  padding: 10px; // Отступ можете подобрать свой.
+  border-radius: 50%; // Делаем икноку круглой
+  background: #e3e6f3;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+
+  img {
+    width: 90%;
+    height: 100%;
+  }
+
+  &::before {
+    content: ''; // Нужно для отображения псевдокласса
+    position: absolute;
+    border: 2px solid #9b9eab; // Ширину обводки можете выбрать сами
+    left: -20px;
+    opacity: 0;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: pulse 2.5s linear infinite; // Указываем название анимации, время, тип, и нужно ли её повторять
+  }
+
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+    border: 2px solid #dde1f1;
+    left: -20px;
+    opacity: 0;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: pulse 2.5s linear infinite;
+  }
+
+  &::after {
+    animation-delay: 1.25s;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+  }
 }
 
 
