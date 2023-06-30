@@ -9,7 +9,7 @@ const MyServices = () => {
 
     return (
         <div className={s.servicesBlock}>
-            <Fade direction = 'up'>
+            <Fade direction = 'right'>
                 <h2 className={s.title}>Мои скиллы</h2>
                 <div className={`${s_container.container} ${s.container}`}>
 
