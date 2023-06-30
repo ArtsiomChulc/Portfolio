@@ -1,12 +1,13 @@
 .App {
-    background-image: url("./common/img/Body/BCGBody.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+    background-color: #000000;
+    //background-image: url("./common/img/Body/BCGBody.jpg");
+    //background-repeat: no-repeat;
+    //background-size: cover;
+    //background-attachment: fixed;
+    //background-position: center;
     color: #fff;
 
-    &:nth-child(even) {
+    &:nth-child(2n) {
         background-color: #1f1f20;
     }
 

@@ -4,6 +4,7 @@ import s_container from '../../common/styles/container.module.css'
 import AboutMeGreet from "./aboutMeGreetings/AboutMeGreet";
 import AboutMePhoto from "./aboutMePhoto/AboutMePhoto";
 
+
 const AboutMe = () => {
     return (
         <div className={s.aboutMeBlock}>

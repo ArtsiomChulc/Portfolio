@@ -5,4 +5,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    box-shadow: -10px 16px 25px 1px rgba(68, 67, 67, 0.75);
+    border-radius: 5px;
 }
