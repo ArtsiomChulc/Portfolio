@@ -7,15 +7,18 @@ type PropsType = {
 
 const NavLink = (props: PropsType) => {
 
-    let toggleClass = `${props.isOpen} ? ${s.burgerNavBlock} ${s.showMenu} : ${s.burgerNavBlock}`
+    let toggleClass = props.isOpen ? `${s.wrapperNav} ${s.showMenu}` : s.wrapperNav
     
     return (
         <div className={toggleClass}>
-            <a href="src/components/header/navLink/NavLink">Главная</a>
-            <a href="src/components/header/navLink/NavLink">Проекты</a>
-            <a href="src/components/header/navLink/NavLink">Работы</a>
-            <a href="src/components/header/navLink/NavLink">Контакты</a>
+            <div className={s.burgerNavBlock}>
+                <a href="src/components/header/navLink/NavLink">Главная</a>
+                <a href="src/components/header/navLink/NavLink">Проекты</a>
+                <a href="src/components/header/navLink/NavLink">Работы</a>
+                <a href="src/components/header/navLink/NavLink">Контакты</a>
+            </div>
         </div>
+
     );
 };
 

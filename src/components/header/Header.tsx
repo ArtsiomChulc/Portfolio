@@ -33,11 +33,9 @@ const Header = () => {
                 size="3x"
             />
             <NavLink/>
-            {isOpen &&
-                <Fade>
-                    <BurgerNavLink isOpen = {isOpen}/>
-                </Fade>
-            }
+             <BurgerNavLink isOpen = {isOpen}/>
+
+
             <BurgerButton onClickHandler={onClickHandler}/>
         </div>
     );
