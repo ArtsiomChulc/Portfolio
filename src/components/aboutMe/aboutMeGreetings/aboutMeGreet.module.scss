@@ -26,24 +26,12 @@
     }
   }
 
-  //.textTyping {
-  //  width: 100%;
-  //  white-space: nowrap;
-  //  overflow: hidden;
-  //  animation: type 3s steps(50, end) alternate infinite;
-  //
-  //  @keyframes type {
-  //    from {
-  //      width: 0;
-  //    }
-  //  }
-  //}
-
   .title {
-    //font-size: 50px;
     padding: 10px 0 10px;
+    color: #bdc9d3;
     font-size: calc(34px + 16 * (100vw / 1440));
     white-space: nowrap;
+    font-family: 'Indie Flower', cursive;
 
     @media screen and (max-width: 450px) {
       font-size: calc(32px + 16 * (100vw / 1440));
@@ -54,16 +42,16 @@
     }
   }
 
-  .subTitle {
+  .subTitle>div>span {
     margin-top: 15px;
     //font-size: 24px;
-    font-size: calc(20px + 16 * (100vw / 1440));
+    font-size: calc(18px + 16 * (100vw / 1440));
     //width: 300px;
     letter-spacing: 1.2px;
     font-family: 'Marck Script', cursive;
 
     @media screen and (max-width: 450px) {
-      font-size: calc(18px + 6 * (100vw / 1440));
+      font-size: calc(16px + 6 * (100vw / 1440));
     }
 
   }

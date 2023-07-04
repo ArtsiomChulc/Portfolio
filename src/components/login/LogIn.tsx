@@ -5,7 +5,7 @@ import reactImg from '../../common/icons/iconForMyWorksExample/react.svg'
 
 const LogIn = () => {
     return (
-        <div className={s.container}>
+        <div id='contacts' className={s.container}>
             <div className={s.brand_title}>Contacts form</div>
             <div className={`${s.brand_logo} ${s.pulse}`}>
                 <img src={reactImg} alt="React logo"/>

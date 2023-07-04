@@ -6,7 +6,7 @@ import {Fade} from "react-awesome-reveal";
 
 const Freelance = () => {
     return (
-        <div className={s.freelanceBlock}>
+        <div id='freelance' className={s.freelanceBlock}>
             <Fade direction='up'>
                 <div className={`${s_container.container} ${s.container}`}>
                     <h2 className={s.title}>Рассматриваю варианты удаленной работы</h2>

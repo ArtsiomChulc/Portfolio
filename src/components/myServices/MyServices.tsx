@@ -8,7 +8,7 @@ import {Fade, Zoom} from "react-awesome-reveal";
 const MyServices = () => {
 
     return (
-        <div className={s.servicesBlock}>
+        <div id='mySkill' className={s.servicesBlock}>
             <Fade>
                 <h2 className={s.title}>Мои скиллы</h2>
                 <div className={`${s_container.container} ${s.container}`}>

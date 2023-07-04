@@ -1,7 +1,7 @@
 .wrapperNav {
   position: absolute;
   top: 80px;
-  width: 100%;
+  width: 50%;
   min-height: 100vh;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-right: 10px solid rgba(255, 255, 255, 0.5);
@@ -9,6 +9,9 @@
   background-image: linear-gradient(to right top, #424a44, #383f39, #2e352f, #252b25, #1c211c);
   transform: translateX(-100vw);
   transition: all .4s ease-in-out;
+
+  display: flex;
+  align-items: center;
 
 
   .burgerNavBlock {
@@ -36,6 +39,10 @@
     @media screen and (min-width: 550px) {
       display: none;
     }
+
+    .active {
+      color: burlywood;
+  }
   }
 }
 

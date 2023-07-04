@@ -1,14 +1,31 @@
 import React from 'react';
 import s from './navLink.module.scss';
+import {Link} from "react-scroll";
 
 const NavLink = () => {
 
     return (
         <div className={s.navBlock}>
-            <a href="src/components/header/navLink/NavLink">Главная</a>
-            <a href="src/components/header/navLink/NavLink">Проекты</a>
-            <a href="src/components/header/navLink/NavLink">Работы</a>
-            <a href="src/components/header/navLink/NavLink">Контакты</a>
+            <Link activeClass={s.active}
+                  to="main"
+                  spy={true} smooth={true}
+                  offset={-80} duration={800}>Главная</Link>
+            <Link activeClass={s.active}
+                  to="mySkill"
+                  spy={true} smooth={true}
+                  offset={-80} duration={800}>Навыки</Link>
+            <Link activeClass={s.active}
+                  to="myWorks"
+                  spy={true} smooth={true}
+                  offset={-80} duration={800}>Работы</Link>
+            <Link activeClass={s.active}
+                  to="freelance"
+                  spy={true} smooth={true}
+                  offset={-70} duration={800}>Freelance</Link>
+            <Link activeClass={s.active}
+                  to="contacts"
+                  spy={true} smooth={true}
+                  offset={-80} duration={800}>Контакты</Link>
         </div>
     );
 };

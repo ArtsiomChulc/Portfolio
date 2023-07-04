@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './myWorks.module.css';
+import s from './myWorks.module.scss';
 import s_container from "../../common/styles/container.module.css";
 import ExampleOfWork from "./exampleOfWork/ExampleOfWork";
 import workPhoto1 from '../../common/img/EXEMPLEofWORK/work1.jpg';
@@ -8,7 +8,7 @@ import {Zoom} from "react-awesome-reveal";
 
 const MyWorks = () => {
     return (
-        <div className={s.myWorksBlock}>
+        <div id='myWorks' className={s.myWorksBlock}>
             <h2 className={s.title}>Мои работы</h2>
             <div className={`${s_container.container} ${s.container}`}>
                 <Zoom>

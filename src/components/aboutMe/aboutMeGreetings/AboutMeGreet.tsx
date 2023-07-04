@@ -12,10 +12,9 @@ const AboutMeGreet = () => {
             </span>
             <h1 className={s.title}>
                 Меня зовут <br/>
-                 <span> Артем Чульц.
+                 <span> Артем Чульц
                 </span>
             </h1>
-            {/*<p className={`${s.subTitle} ${s.textTyping}`}>Я Front-End разработчик</p>*/}
             <span className={s.subTitle}>
                 <Typewriter
                     options={{
