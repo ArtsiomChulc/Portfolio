@@ -10,11 +10,11 @@ const Footer = () => {
             <div className={`${s_container.container} ${s.container}`}>
                 <h4 className={s.name}>Чульц Артем</h4>
                 <div className={s.iconsBlock}>
-                    <InfoForFooter customStyle={s.facebook}/>
-                    <InfoForFooter customStyle={s.linkedin}/>
-                    <InfoForFooter customStyle={s.twitter}/>
-                    <InfoForFooter customStyle={s.github}/>
-                    <InfoForFooter customStyle={s.instagram}/>
+                    <InfoForFooter link={'https://www.facebook.com/profile.php?id=100077324141821'} customStyle={s.facebook}/>
+                    <InfoForFooter link={'https://www.linkedin.com/in/artem-chults-753996256/'} customStyle={s.linkedin}/>
+                    <InfoForFooter link={'https://twitter.com/artemorsha'} customStyle={s.twitter}/>
+                    <InfoForFooter link={'https://github.com/ArtsiomChulc'} customStyle={s.github}/>
+                    <InfoForFooter link={'https://www.instagram.com/artemchults/'} customStyle={s.instagram}/>
                 </div>
                 <span className={s.copyRight}>
                     &copy; 2023 Все права защищены

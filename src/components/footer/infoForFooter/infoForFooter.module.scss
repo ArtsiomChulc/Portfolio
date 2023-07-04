@@ -1,13 +1,22 @@
-.iconBlock {
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-size: 48px;
-    cursor: pointer;
+.wrap {
 
-    @media screen and (max-width: 600px) {
-        background-size: 40px;
-    }
-    @media screen and (max-width: 375px) {
-        background-size: 32px;
+    .iconBlock {
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: 48px;
+        cursor: pointer;
+        transition: translateY .3s, rotateY ease-in-out .3s, .6s;
+
+        &:hover {
+            transform: translateY(-10px) rotateY(360deg);
+        }
+
+        @media screen and (max-width: 600px) {
+            background-size: 40px;
+        }
+        @media screen and (max-width: 375px) {
+            background-size: 32px;
+        }
     }
 }
+

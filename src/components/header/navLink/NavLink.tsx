@@ -13,7 +13,7 @@ const NavLink = () => {
             <Link activeClass={s.active}
                   to="mySkill"
                   spy={true} smooth={true}
-                  offset={-80} duration={800}>Навыки</Link>
+                  offset={-80} duration={800}>Мои скилы</Link>
             <Link activeClass={s.active}
                   to="myWorks"
                   spy={true} smooth={true}

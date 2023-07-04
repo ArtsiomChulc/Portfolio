@@ -1,7 +1,7 @@
 .wrapperNav {
   position: absolute;
   top: 80px;
-  width: 50%;
+  width: 70%;
   min-height: 100vh;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-right: 10px solid rgba(255, 255, 255, 0.5);
@@ -12,7 +12,6 @@
 
   display: flex;
   align-items: center;
-
 
   .burgerNavBlock {
     display: flex;
@@ -42,7 +41,20 @@
 
     .active {
       color: burlywood;
-  }
+      position: relative;
+
+      &::before {
+        display: inline-block;
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+        height: 1px;
+        background-color: burlywood;
+      }
+    }
   }
 }
 

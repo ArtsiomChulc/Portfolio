@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from './burgerNavLink.module.scss';
 import {Link} from "react-scroll";
 
 type PropsType = {
     isOpen: boolean
+    setIsOpen: (x: boolean) => void
 }
 
 const NavLink = (props: PropsType) => {
@@ -11,7 +12,7 @@ const NavLink = (props: PropsType) => {
     let toggleClass = props.isOpen ? `${s.wrapperNav} ${s.showMenu}` : s.wrapperNav
     
     return (
-        <div className={toggleClass}>
+        <div id='nav' className={toggleClass}>
             <div className={s.burgerNavBlock}>
                 {/*<a href="src/components/header/navLink/NavLink">Главная</a>*/}
                 {/*<a href="src/components/header/navLink/NavLink">Проекты</a>*/}
@@ -24,7 +25,7 @@ const NavLink = (props: PropsType) => {
                 <Link activeClass={s.active}
                       to="mySkill"
                       spy={true} smooth={true}
-                      offset={-80} duration={300}>Навыки</Link>
+                      offset={-80} duration={300}>Мои скилы</Link>
                 <Link activeClass={s.active}
                       to="myWorks"
                       spy={true} smooth={true}

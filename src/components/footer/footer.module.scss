@@ -1,40 +1,38 @@
 .footerBlock {
   background-color: rgba(31, 31, 32, 0.94);
-}
 
-.container {
-  flex-direction: column;
-  box-shadow: none;
-  /*border: 1px solid rgba(255, 255, 255, 0.05);*/
-}
+  .container {
+    flex-direction: column;
+    box-shadow: none;
 
-.name {
-  padding-top: 25px;
-  margin-bottom: 25px;
-  font-weight: 300;
-  font-size: 20px;
-}
+    .name {
+      padding-top: 25px;
+      margin-bottom: 25px;
+      font-weight: 300;
+      font-size: 20px;
+    }
 
-.iconsBlock {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 5px;
-  border-radius: 10px;
-  border: 2px solid rgba(199, 191, 191, 0.85);
-  margin-bottom: 20px;
-  padding: 0 15px;
-  background-color: rgba(8, 8, 9, 0.7);
+    .iconsBlock {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 5px;
+      border-radius: 10px;
+      border: 2px solid rgba(199, 191, 191, 0.85);
+      margin-bottom: 20px;
+      padding: 0 15px;
+      background-color: rgba(8, 8, 9, 0.7);
 
-  @media screen and (max-width: 600px) {
-    flex-wrap: nowrap;
+      @media screen and (max-width: 600px) {
+        flex-wrap: nowrap;
+      }
+    }
+
+    .copyRight {
+      margin-bottom: 20px;
+    }
   }
-}
-
-
-.copyRight {
-  margin-bottom: 20px;
 }
 
 .facebook {

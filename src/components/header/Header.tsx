@@ -7,7 +7,6 @@ import {faCheckSquare, faCoffee, faCog, faQuoteLeft, faSpinner, faSquare} from '
 import {library} from "@fortawesome/fontawesome-svg-core";
 import BurgerNavLink from "./navLink/burgerNavlink/BurgerNavLink";
 import BurgerButton from "../../common/burgerBTN/BurgerButton";
-import {Fade} from "react-awesome-reveal";
 
 library.add(
     fab,
@@ -33,9 +32,7 @@ const Header = () => {
                 size="3x"
             />
             <NavLink/>
-             <BurgerNavLink isOpen = {isOpen}/>
-
-
+             <BurgerNavLink setIsOpen={setIsOpen} isOpen = {isOpen}/>
             <BurgerButton onClickHandler={onClickHandler}/>
         </div>
     );
