@@ -40,7 +40,6 @@ const NavLink = (props: PropsType) => {
                       offset={-80} duration={300}>Контакты</Link>
             </div>
         </div>
-
     );
 };
 
