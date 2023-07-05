@@ -14,10 +14,6 @@ const NavLink = (props: PropsType) => {
     return (
         <div id='nav' className={toggleClass}>
             <div className={s.burgerNavBlock}>
-                {/*<a href="src/components/header/navLink/NavLink">Главная</a>*/}
-                {/*<a href="src/components/header/navLink/NavLink">Проекты</a>*/}
-                {/*<a href="src/components/header/navLink/NavLink">Работы</a>*/}
-                {/*<a href="src/components/header/navLink/NavLink">Контакты</a>*/}
                 <Link activeClass={s.active}
                       to="main"
                       spy={true} smooth={true}

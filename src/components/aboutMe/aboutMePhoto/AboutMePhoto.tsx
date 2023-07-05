@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './aboutMePhoto.module.scss';
-import example from '../../../common/img/exampleImg.jpg';
+import example from '../../../common/img/myPhoto.jpg';
 import {Tilt} from 'react-tilt';
 
 const AboutMePhoto = () => {
