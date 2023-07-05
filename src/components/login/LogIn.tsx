@@ -24,7 +24,7 @@ const LogIn = () => {
             text: ''
         },
         onSubmit: (values: LoginType) => {
-            alert(values.name)
+            alert(JSON.stringify(values))
             formik.resetForm()
         },
         validate: (values) => {
@@ -54,17 +54,17 @@ const LogIn = () => {
                 <div>
                     <label>Enter your Name</label>
                     <input className={s.input} {...formik.getFieldProps('name')}/>
-                    {formik.errors.name && <div className={s.errorMessage}>{formik.errors.name}</div>}
+                    {formik.touched.name && formik.errors.name && <div className={s.errorMessage}>{formik.errors.name}</div>}
                 </div>
                 <div>
                     <label>Enter your Last Name</label>
                     <input className={s.input} {...formik.getFieldProps('lastName')}/>
-                    {formik.errors.lastName && <div className={s.errorMessage}>{formik.errors.lastName}</div>}
+                    {formik.touched.lastName && formik.errors.lastName && <div className={s.errorMessage}>{formik.errors.lastName}</div>}
                 </div>
                 <div>
                     <label>Describe your wishes</label>
                     <input className={s.input} placeholder={'Enter your text'} {...formik.getFieldProps('text')}/>
-                    {formik.errors.text && <div className={`${s.errorMessageText} ${s.errorMessage}`}>{formik.errors.text}</div>}
+                    {formik.touched.text && formik.errors.text && <div className={`${s.errorMessageText} ${s.errorMessage}`}>{formik.errors.text}</div>}
                 </div>
                 <button className={`${button.btn} ${s.button}`} type="submit"><span>Отправить</span></button>
             </form>
