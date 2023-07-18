@@ -1,4 +1,4 @@
-import React, {useCallback} from 'react';
+import React, {useCallback, useState} from 'react';
 import s from './app.module.scss';
 import Header from "./components/header/Header";
 import AboutMe from "./components/aboutMe/AboutMe";
@@ -11,8 +11,13 @@ import Particles from "react-tsparticles";
 import {Engine} from "tsparticles-engine";
 import {loadFull} from "tsparticles";
 import {Zoom} from "react-awesome-reveal";
+import {GlobalToast} from "./components/globalToast/GlobalToast";
+import "react-toastify/dist/ReactToastify.css";
+
 
 function App() {
+    const [isOpen, setIsOpen] = useState(false)
+
     const particlesInit = useCallback(async (engine: Engine) => {
         await loadFull(engine);
     }, []);
@@ -72,15 +77,18 @@ function App() {
                     detectRetina: true,
                 }}
             />
-            <Header/>
-            <Zoom>
-                <AboutMe/>
-            </Zoom>
-            <MyServices/>
-            <MyWorks/>
-            <Freelance/>
-            <LogIn/>
-            <Footer/>
+            <Header isOpen={isOpen} setIsOpen={setIsOpen}/>
+            <span aria-disabled={isOpen}>
+                <Zoom>
+                    <AboutMe />
+                </Zoom>
+                <MyServices/>
+                <MyWorks/>
+                <Freelance/>
+                <LogIn/>
+                <Footer/>
+                <GlobalToast/>
+            </span>
         </div>
     );
 }

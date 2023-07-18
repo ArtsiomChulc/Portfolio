@@ -11,4 +11,9 @@
         background-color: #1f1f20;
     }
 
+    [aria-disabled='true'] {
+        opacity: 0.3;
+        display: none;
+    }
+
 }

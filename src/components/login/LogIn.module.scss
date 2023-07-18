@@ -84,19 +84,16 @@
     }
 
     .errorMessage {
-      clip-path: polygon(0 13%, 100% 14%, 100% 75%, 40% 77%, 0 100%, 22% 76%, 0% 75%);
-      background-color: rgba(255, 255, 254, 0.61);
+      //clip-path: polygon(0 13%, 100% 14%, 100% 75%, 40% 77%, 0 100%, 22% 76%, 0% 75%);
+      background-color: rgba(7, 7, 7, 0.61);
       color: red;
-      border-radius: 20px;
+      border: 1px solid snow;
+      border-radius: 6px;
       position: absolute;
-      padding: 20px 5px;
-      top: -22px;
+      padding: 10px 5px;
+      top: -10px;
       right: 0;
     }
-    .errorMessageText {
-      top: -30px;
-    }
-
   }
 }
 

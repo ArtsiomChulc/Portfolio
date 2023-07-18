@@ -18,8 +18,14 @@ library.add(
     faCheckSquare
 )
 
-const Header = () => {
-    const [isOpen, setIsOpen] = useState(false)
+type PropsType = {
+    isOpen: boolean
+    setIsOpen: (x: boolean) => void
+}
+
+const Header = (props: PropsType) => {
+    const {isOpen, setIsOpen} = props
+    // const [isOpen, setIsOpen] = useState(false)
     const onClickHandler = () => {
         setIsOpen(!isOpen)
     }
