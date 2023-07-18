@@ -10,6 +10,10 @@ type PropsType = {
 const NavLink = (props: PropsType) => {
 
     let toggleClass = props.isOpen ? `${s.wrapperNav} ${s.showMenu}` : s.wrapperNav
+
+    const onClickHandler = () => {
+        props.setIsOpen(!props.isOpen)
+    }
     
     return (
         <div id='nav' className={toggleClass}>
@@ -17,23 +21,33 @@ const NavLink = (props: PropsType) => {
                 <Link activeClass={s.active}
                       to="main"
                       spy={true} smooth={true}
-                      offset={-80} duration={300}>Главная</Link>
+                      offset={-80} duration={300}
+                      onClick={onClickHandler}
+                >Главная</Link>
                 <Link activeClass={s.active}
                       to="mySkill"
                       spy={true} smooth={true}
-                      offset={-80} duration={300}>Мои скилы</Link>
+                      offset={-80} duration={300}
+                      onClick={onClickHandler}
+                >Мои скилы</Link>
                 <Link activeClass={s.active}
                       to="myWorks"
                       spy={true} smooth={true}
-                      offset={-80} duration={300}>Работы</Link>
+                      offset={-80} duration={300}
+                      onClick={onClickHandler}
+                >Работы</Link>
                 <Link activeClass={s.active}
                       to="freelance"
                       spy={true} smooth={true}
-                      offset={-70} duration={300}>Freelance</Link>
+                      offset={-70} duration={300}
+                      onClick={onClickHandler}
+                >Freelance</Link>
                 <Link activeClass={s.active}
                       to="contacts"
                       spy={true} smooth={true}
-                      offset={-80} duration={300}>Контакты</Link>
+                      offset={-80} duration={300}
+                      onClick={onClickHandler}
+                >Контакты</Link>
             </div>
         </div>
     );
