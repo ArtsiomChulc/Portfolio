@@ -5,6 +5,7 @@ type ExamplePropsType = {
     photo: string
     description: string
     nameProject: string
+    href: string
 }
 
 const ExampleOfWork = (props: ExamplePropsType) => {
@@ -12,7 +13,7 @@ const ExampleOfWork = (props: ExamplePropsType) => {
         <div className={s.exampleBlock}>
             <div className={s.wrapRelative}>
                 <img src={props.photo} alt="My work photo"/>
-                <button className={s.btn}>Смотреть</button>
+                <a href={props.href} target={"_blank"} className={s.btn}>Look</a>
             </div>
             <div className={s.wrapText}>
                 <p className={s.projectName}>{props.nameProject}</p>
